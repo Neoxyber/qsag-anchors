@@ -23,7 +23,7 @@
 
 This ADR is the design decision record for `qsag-anchors`, the first artefact in the Q-SAG open-source substrate programme. It commits to the v0.1 functional surface, the standards alignment, the threat model, and the integration pattern with the broader Q-SAG application and with downstream consumers (Microsoft Agent Governance Toolkit, Asqav SDK, custom AI-agent governance SDKs, regulators, auditors).
 
-The master programme ADR (ADR-0031 in the private neoxyber-qsag repository) commits to the existence of this artefact and to its place in the eleven-artefact substrate programme. This ADR-0001 commits to *how* the artefact is designed.
+The master programme ADR (ADR-0031 in the private neoxyber-qsag repository) commits to the existence of this artefact and to its place in the ten-artefact substrate programme. This ADR-0001 commits to *how* the artefact is designed.
 
 Per the locked ADR discipline in ADR-0031 §4.1, this ADR-0001 must be committed before any source code lands in `src/`. This is being committed as part of the initial repository scaffolding.
 
@@ -195,7 +195,7 @@ Detailed clause-level mappings will live in [STANDARDS.md](STANDARDS.md), to be 
 
 ## 5. References
 
-- ADR-0031 — Open-Source Cryptographic and Audit Substrate Programme (private neoxyber-qsag repository, commit 21490f1d4e046040330c2e360cfe16cb39e702a2).
+- ADR-0031 — Open-Source Cryptographic and Audit Substrate Programme (private neoxyber-qsag repository, amended commit 5541d7b32e16b5a1da8b25e17a1c989cff049dde (9 May 2026; original commit 21490f1d4e046040330c2e360cfe16cb39e702a2)).
 - IETF I-D draft-ietf-scitt-architecture-22 — An Architecture for Trustworthy and Transparent Digital Supply Chains.
 - IETF I-D draft-ietf-scitt-scrapi-09 — Supply Chain Reference API.
 - IETF I-D draft-ietf-cose-merkle-tree-proofs-18 — COSE Receipts for Merkle Tree Proofs.
